@@ -1,0 +1,9 @@
+export const SELECT_BEER = "SELECT_BEER"
+
+export const NOT_SELECT_BEER = "NOT_SELECT_BEER"
+
+export const SORT_BEER = "SORT_BEER"
+
+export const COMPARE_BEER = "COMPARE_BEER"
+
+export const NOT_COMPARE_ALL_BEER = "NOT_COMPARE_ALL_BEER"
