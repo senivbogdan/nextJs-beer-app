@@ -91,13 +91,19 @@ export const GlobalStyles = createGlobalStyle`
     width: 15%;
     text-align: center;
   }
-  .show-buttons {
-    display: none;
-  }
-
-  .hide-buttons {
-    display: inline;
-  }
+  //.show-buttons {
+  //  display: none;
+  //}
+  //
+  //.hide-buttons {
+  //  display: inline;
+  //}.show-buttons {
+  //  display: none;
+  //}
+  //
+  //.hide-buttons {
+  //  display: inline;
+  //}
 
   .modal__content {
     padding: 20px;
@@ -132,11 +138,11 @@ export const GlobalStyles = createGlobalStyle`
     transform: scale(1);
   }
 
-  .kek {
+  .picture {
     transition: width 1s, height 1s, transform 1s;
   }
 
-  .kek:hover {
+  .picture:hover {
     transform: rotate(360deg);
   }
 

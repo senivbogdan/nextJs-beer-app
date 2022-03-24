@@ -7,7 +7,7 @@ const Checkbox = ({ item, cheakFunc, isCheсked}) => {
             <input
                 className="s"
                 type="checkbox"
-                onClick={() =>  cheakFunc(item, item.id)}
+                onClick={() =>  cheakFunc(item)}
                 checked={isCheсked}
             />
         </div>
