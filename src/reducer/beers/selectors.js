@@ -1,0 +1,1 @@
+export const selectBeersForPage = (state) => state?.beers.beersForPage;
